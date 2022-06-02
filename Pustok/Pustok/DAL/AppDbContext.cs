@@ -10,5 +10,11 @@ namespace Pustok.DAL
 
         }
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Feature> Features { get; set; }
+
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Book> Books { get; set; }
+
+
     }
 }

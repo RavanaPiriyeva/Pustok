@@ -18,7 +18,15 @@ namespace Pustok.Controllers
         public IActionResult Index()
         {
              List<Slider> sliders = _context.Sliders.OrderBy(x=>x.Order).ToList();
-            return View();
+            List<Feature> features = _context.Features.ToList();
+
+            HomeViewModel homeVM = new HomeViewModel
+            {
+                Sliders = sliders,
+                Features = features
+            };
+
+            return View(homeVM);
         }
     }
 }
