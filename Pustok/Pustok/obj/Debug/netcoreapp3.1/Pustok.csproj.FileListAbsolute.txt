@@ -132,6 +132,12 @@ C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\static
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.TagHelpers.input.cache
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.TagHelpers.output.cache
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.RazorCoreGenerate.cache
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Author\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Book\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewImports.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewStart.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
@@ -144,7 +150,4 @@ C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.dll
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.pdb
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.genruntimeconfig.cache
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewImports.cshtml.g.cs
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewStart.cshtml.g.cs
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Dashboard\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Category\Index.cshtml.g.cs

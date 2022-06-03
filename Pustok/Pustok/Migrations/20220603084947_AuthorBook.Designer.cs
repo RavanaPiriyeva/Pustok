@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Pustok.DAL;
 
 namespace Pustok.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220603084947_AuthorBook")]
+    partial class AuthorBook
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -52,15 +54,9 @@ namespace Pustok.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<double>("CostPrice")
-                        .HasColumnType("float");
-
                     b.Property<string>("Desc")
                         .HasColumnType("nvarchar(250)")
                         .HasMaxLength(250);
-
-                    b.Property<double>("DiscountPercent")
-                        .HasColumnType("float");
 
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(100)")
@@ -69,9 +65,6 @@ namespace Pustok.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(25)")
                         .HasMaxLength(25);
-
-                    b.Property<double>("SalePrice")
-                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
