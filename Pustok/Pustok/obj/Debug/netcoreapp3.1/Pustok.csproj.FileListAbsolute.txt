@@ -5,6 +5,9 @@ C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.runtimeconfig.json
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.runtimeconfig.dev.json
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.dll
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.pdb
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.Views.dll
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.Views.pdb
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -131,6 +134,7 @@ C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.RazorCoreGenerate.cache
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.RazorTargetAssemblyInfo.cache
@@ -140,7 +144,7 @@ C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.dll
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.pdb
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.genruntimeconfig.cache
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.pdb
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.Views.dll
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Pustok.Views.pdb
-C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shop\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewImports.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\_ViewStart.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Dashboard\Index.cshtml.g.cs

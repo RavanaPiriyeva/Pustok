@@ -132,7 +132,7 @@ namespace Pustok.Migrations
             modelBuilder.Entity("Pustok.Models.Book", b =>
                 {
                     b.HasOne("Pustok.Models.Category", "Category")
-                        .WithMany()
+                        .WithMany("Books")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

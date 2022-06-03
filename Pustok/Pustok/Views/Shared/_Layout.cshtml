@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿
+
+<!DOCTYPE html>
 <html lang="zxx">
 
 
@@ -14,6 +16,7 @@
 </head>
 
 <body>
+    
     <div class="site-wrapper" id="top">
         <div class="site-header d-none d-lg-block">
             <div class="header-middle pt--10 pb--10">
@@ -35,6 +38,7 @@
                                 </div>
                             </div>
                         </div>
+                       
                         <div class="col-lg-6">
                             <div class="main-navigation flex-lg-right">
                                 <ul class="main-menu menu-right ">
@@ -42,7 +46,7 @@
                                         <a href="javascript:void(0)">Home <i
                                                 class="fas fa-chevron-down dropdown-arrow"></i></a>
                                         <ul class="sub-menu">
-                                            <li> <a href="index.html">Home One</a></li>
+                                            <li> <a asp-action="index" asp-controller="home">Home One</a></li>
                                             <li> <a href="index-2.html">Home Two</a></li>
                                             <li> <a href="index-3.html">Home Three</a></li>
                                             <li> <a href="index-4.html">Home Four</a></li>
@@ -58,7 +62,7 @@
                                                 <h3 class="menu-title"><a href="javascript:void(0)">Shop Grid </a></h3>
                                                 <ul class="mega-single-block">
                                                     <li><a href="shop-grid.html">Fullwidth</a></li>
-                                                    <li><a asp-controller="shop" asp-action="index">left Sidebar</a></li>
+                                                    <li><a asp-action="index" asp-controller="shop">left Sidebar</a></li>
                                                     <li><a href="shop-grid-right-sidebar.html">Right Sidebar</a></li>
                                                 </ul>
                                             </li>
@@ -66,7 +70,7 @@
                                                 <h3 class="menu-title"> <a href="javascript:void(0)">Shop List</a></h3>
                                                 <ul class="mega-single-block">
                                                     <li><a href="shop-list.html">Fullwidth</a></li>
-                                                    <li><a href="shop-list-left-sidebar.html">left Sidebar</a></li>
+                                                    <li><a asp-action="index" asp-controller="shop">left Sidebar</a></li>
                                                     <li><a href="shop-list-right-sidebar.html">Right Sidebar</a></li>
                                                 </ul>
                                             </li>

@@ -1,4 +1,4 @@
-﻿
+﻿@model ShopViewModel;
 @{
     ViewData["Title"] = "Index";
 }
@@ -296,7 +296,7 @@
 												<a href="#" class="btn btn-outlined">Add To Cart</a>
 												<a href="#" class="card-link"><i class="fas fa-heart"></i> Add To
 													Wishlist</a>
-												<a href="#" class="card-link"><i class="fas fa-random"></i> Add To
+												<a  class="card-link"><i class="fas fa-random"></i> Add To
 													Cart</a>
 											</div>
 										</div>
@@ -329,7 +329,7 @@
 														<a href="compare.html" class="single-btn">
 															<i class="fas fa-random"></i>
 														</a>
-														<a href="#" data-toggle="modal" data-target="#quickModal"
+														<a  data-toggle="modal" data-target="#quickModal"
 															class="single-btn">
 															<i class="fas fa-eye"></i>
 														</a>
@@ -959,26 +959,11 @@
 							<div class="single-block">
 								<h3 class="sidebar-title">Categories</h3>
 								<ul class="sidebar-menu--shop">
-									<li><a href="#">Accessories (5)</a></li>
-									<li><a href="#">Arts & Photography (10)</a></li>
-									<li><a href="#">Biographies (16)</a></li>
-									<li><a href="#">Business & Money (0)</a></li>
-									<li><a href="#">Calendars (6)</a></li>
-									<li><a href="#">Children's Books (9)</a></li>
-									<li><a href="#">Comics (16)</a></li>
-									<li><a href="#">Cookbooks (7)</a></li>
-									<li><a href="#">Education (3)</a></li>
-									<li><a href="#">House Plants (6)</a></li>
-									<li><a href="#">Indoor Living (9)</a></li>
-									<li><a href="#">Perfomance Filters (5)</a></li>
-									<li><a href="#">Shop (16)</a>
-										<ul class="inner-cat-items">
-											<li><a href="#">Saws (0)</a></li>
-											<li><a href="#">Concrete Tools (7)</a></li>
-											<li><a href="#">Drills (2)</a></li>
-											<li><a href="#">Sanders (1)</a></li>
-										</ul>
-									</li>
+							@for (int i=0; i < Model.Categories.Count; i++)
+							{
+								<li><a href="#">@Model.Categories[i].Name (@Model.Categories[i].Books.Count)</a></li>
+							}
+							
 								</ul>
 							</div>
 							<!-- Price -->

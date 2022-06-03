@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Pustok.Models
 {
@@ -8,7 +9,8 @@ namespace Pustok.Models
         [Required]
         [StringLength(maximumLength: 25)]
         public string Name { get; set; }
+        public List<Book> Books { get; set; }
 
-        
+
     }
 }
