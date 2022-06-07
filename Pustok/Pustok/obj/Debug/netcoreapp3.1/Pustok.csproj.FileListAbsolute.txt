@@ -151,3 +151,8 @@ C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.pdb
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.genruntimeconfig.cache
 C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Category\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Author\Create.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Author\Edit.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Author\Delete.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Category\Create.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\ASP\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Category\Edit.cshtml.g.cs

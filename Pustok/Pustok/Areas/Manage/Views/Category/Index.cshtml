@@ -8,7 +8,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-10 mx-auto">
-            <a class="btn btn-primary">Create</a>
+            <a asp-action="create" class="btn btn-primary">Create</a>
         </div>
         <div class="col-md-10 mx-auto">
             <table class="table">
@@ -29,8 +29,8 @@
                             <th scope="row">@cat.Id</th>
                             <td>@cat.Name</td>
                             <td>
-                                <a class="btn btn-warning">Edit</a>
-                                <a class="btn btn-danger">Delete</a>
+                                <a asp-action="edit" asp-route-id="@cat.Id" class="btn btn-warning">Edit</a>
+                                <a asp-action="sweetdelete" asp-route-id="@cat.Id" class="btn btn-danger sweet-delete">Delete</a>
                             </td>
                         </tr>
                     }
