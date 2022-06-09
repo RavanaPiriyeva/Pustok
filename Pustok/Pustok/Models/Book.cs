@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Pustok.Models
 {
@@ -20,5 +23,12 @@ namespace Pustok.Models
         public double DiscountPercent { get; set; }
         public Category Category { get; set; }
         public Author Author { get; set; }
+        public List<BookImage> BookImages { get; set; } = new List<BookImage>();
+
+        [NotMapped]
+        public IFormFile PosterFile { get; set; }
+
+        [NotMapped]
+        public List<IFormFile> ImageFiles { get; set; }
     }
 }
