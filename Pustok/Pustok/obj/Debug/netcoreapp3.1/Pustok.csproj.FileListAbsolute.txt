@@ -605,7 +605,6 @@ C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\runt
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.csproj.AssemblyReference.cache
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.AssemblyInfoInputs.cache
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.AssemblyInfo.cs
@@ -648,3 +647,4 @@ C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pust
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.dll
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.pdb
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.genruntimeconfig.cache
+C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.csproj.AssemblyReference.cache

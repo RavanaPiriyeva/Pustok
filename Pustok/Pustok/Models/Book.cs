@@ -15,7 +15,10 @@ namespace Pustok.Models
         public int AuthorId { get; set; }
         [StringLength(maximumLength: 250)]
         public string Desc { get; set; }
-
+        public bool IsAvailable { get; set; }
+        public byte Rate { get; set; }
+        public bool IsNew { get; set; }
+        public bool IsFeatured { get; set; }
         [StringLength(maximumLength: 100)]
         public string Image { get; set; }
         public double SalePrice { get; set; }
