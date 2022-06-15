@@ -129,5 +129,5 @@ namespace Pustok.Areas.Manage.Controllers
             _context.SaveChanges();
             return RedirectToAction("index");
         }
-        }
+    }
 }
