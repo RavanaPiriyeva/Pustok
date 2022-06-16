@@ -36,15 +36,5 @@ namespace Pustok.Controllers
 
             return View(homeVM);
         }
-
-        public IActionResult GetBookDetail(int id)
-        {
-            Book book = _context.Books.FirstOrDefault(x => x.Id == id);
-
-            if (book == null)
-                return NotFound();
-
-            return Json(new { name = book.Name });
-        }
     }
 }
