@@ -27,11 +27,17 @@ namespace Pustok.Models
         public Category Category { get; set; }
         public Author Author { get; set; }
         public List<BookImage> BookImages { get; set; } = new List<BookImage>();
+        public List<BookTag> BookTags { get; set; } = new List<BookTag>();
+        [NotMapped]
+        public List<int> TagIds { get; set; } = new List<int>();
 
         [NotMapped]
         public IFormFile PosterFile { get; set; }
 
         [NotMapped]
         public List<IFormFile> ImageFiles { get; set; }
+      
+        [NotMapped]
+        public IFormFile HoverPosterFile { get; set; }
     }
 }

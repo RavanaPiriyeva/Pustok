@@ -650,3 +650,5 @@ C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pust
 C:\Users\Ravana\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Pustok.csproj.AssemblyReference.cache
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BookTabSliderPartial.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BookModalPartial.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Book\Edit.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Account\Login.cshtml.g.cs

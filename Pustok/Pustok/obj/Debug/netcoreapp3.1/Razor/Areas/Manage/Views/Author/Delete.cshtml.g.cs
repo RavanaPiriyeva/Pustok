@@ -19,8 +19,15 @@ using Pustok.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\Areas\Manage\Views\_ViewImports.cshtml"
+using Pustok.Areas.Manage.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c5ccf70ce344c3f26e2258ee9c515c288a4e2078", @"/Areas/Manage/Views/Author/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d4ef88ed3d143273da0dfcb84dd8865494a12d2e", @"/Areas/Manage/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9963257c2d02eac27f1bf640fdcd76f8cde9ca0d", @"/Areas/Manage/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_Manage_Views_Author_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Author>
     #nullable disable
@@ -96,7 +103,7 @@ using Pustok.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</p>\r\n\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5ccf70ce344c3f26e2258ee9c515c288a4e20785365", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5ccf70ce344c3f26e2258ee9c515c288a4e20785576", async() => {
                 WriteLiteral("\r\n                          <a href=\"#\" class=\"btn btn-primary\">Go to back</a>\r\n                          <button type=\"submit\" class=\"btn btn-danger\">Delete</button>\r\n                    ");
             }
             );

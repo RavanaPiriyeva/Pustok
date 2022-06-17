@@ -32,5 +32,17 @@ namespace Pustok.Helpers
             }
             return false;
         }
+
+        public static void DeleteAll(string root, string folder, List<string> fileNames)
+        {
+            foreach (var filename in fileNames)
+            {
+                string path = Path.Combine(root, folder, filename);
+                if (File.Exists(path))
+                {
+                    File.Delete(path);
+                }
+            }
+        }
     }
 }
