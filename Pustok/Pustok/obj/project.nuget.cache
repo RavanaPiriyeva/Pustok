@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0vrGOKpOKvXA6x035MUUXnZlLlD0VPvc/CnJcfCczIziyos+omtbgpWSV9Uaow8Axviu1PdRXsZam8PJT1tPtg==",
+  "dgSpecHash": "IE0tsgj9mWVz2Zk+9cPGvnMsXDe5l/apUMHHtSXFf+X4n5hy4InuleEMFxZgbVNQiuHu8J0lmkF1yofF6pNmEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\SAMSUNG\\Desktop\\pustok\\Pustok\\Pustok\\Pustok\\Pustok.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.25\\microsoft.aspnetcore.cryptography.internal.3.1.25.nupkg.sha512",
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.25\\microsoft.aspnetcore.cryptography.keyderivation.3.1.25.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.25\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.25.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
@@ -32,6 +35,8 @@
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.25\\microsoft.extensions.configuration.binder.3.1.25.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.25\\microsoft.extensions.dependencyinjection.3.1.25.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.25\\microsoft.extensions.dependencyinjection.abstractions.3.1.25.nupkg.sha512",
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.identity.core\\3.1.25\\microsoft.extensions.identity.core.3.1.25.nupkg.sha512",
+    "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.identity.stores\\3.1.25\\microsoft.extensions.identity.stores.3.1.25.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.logging\\3.1.25\\microsoft.extensions.logging.3.1.25.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.25\\microsoft.extensions.logging.abstractions.3.1.25.nupkg.sha512",
     "C:\\Users\\SAMSUNG\\.nuget\\packages\\microsoft.extensions.options\\3.1.25\\microsoft.extensions.options.3.1.25.nupkg.sha512",

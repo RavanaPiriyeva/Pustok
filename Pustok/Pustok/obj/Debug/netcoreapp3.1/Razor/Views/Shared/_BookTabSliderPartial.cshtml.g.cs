@@ -26,8 +26,15 @@ using Pustok.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\Views\_ViewImports.cshtml"
+using Pustok;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bf570cc731b097f2e4986aea6f34b7018e5abd51", @"/Views/Shared/_BookTabSliderPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"15d25880d92cc8dab6387e9ad92b7c7920fb8729", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ca9c74307dc5e8572d053d43645c6fc3201057e8", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__BookTabSliderPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Book>>
     #nullable disable
@@ -100,7 +107,7 @@ using Pustok.ViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n                        </a>\r\n                    </h3>\r\n                </div>\r\n                <div class=\"product-card--body\">\r\n                    <div class=\"card-image\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "bf570cc731b097f2e4986aea6f34b7018e5abd516791", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "bf570cc731b097f2e4986aea6f34b7018e5abd516965", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -124,7 +131,7 @@ AddHtmlAttributeValue("", 1408, item.BookImages.FirstOrDefault(x=>x.PosterStatus
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"hover-contents\">\r\n                            <a href=\"product-details.html\" class=\"hover-image\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "bf570cc731b097f2e4986aea6f34b7018e5abd518603", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "bf570cc731b097f2e4986aea6f34b7018e5abd518777", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -160,7 +167,7 @@ AddHtmlAttributeValue("", 1672, item.BookImages.FirstOrDefault(x=>x.PosterStatus
                                     <i class=""fas fa-random""></i>
                                 </a>
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf570cc731b097f2e4986aea6f34b7018e5abd5110927", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf570cc731b097f2e4986aea6f34b7018e5abd5111101", async() => {
                 WriteLiteral("\r\n                                    <i class=\"fas fa-eye\"></i>\r\n                                ");
             }
             );

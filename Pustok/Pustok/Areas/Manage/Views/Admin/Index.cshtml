@@ -1,0 +1,41 @@
+﻿@model List<AppUser>
+@{
+    ViewData["Title"] = "Index";
+    int count =0;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10 mx-auto">
+            <a asp-action="create" class="btn btn-primary" >Create</a>
+        </div>
+        <div class="col-md-10 mx-auto">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">FullName</th>
+                       
+                        
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var auth in Model)
+                    {
+                        count++;
+                        <tr>
+                            <th scope="row">@count</th>
+                            <td>@auth.FullName</td>
+                           
+                            <td>
+                                <a asp-action="SweetDelete" asp-route-id="@auth.Id" class="btn btn-danger sweet-delete">Delete</a>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

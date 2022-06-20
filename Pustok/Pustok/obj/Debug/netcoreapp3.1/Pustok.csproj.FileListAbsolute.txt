@@ -652,3 +652,14 @@ C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Raz
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BookModalPartial.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Book\Edit.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Account\Login.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Dashboard\Error.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MemberLoginForm.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MemberRegisterForm.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Admin\Index.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Admin\Create.cshtml.g.cs

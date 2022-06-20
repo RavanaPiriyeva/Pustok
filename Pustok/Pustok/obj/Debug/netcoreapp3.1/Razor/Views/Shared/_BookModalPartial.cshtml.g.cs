@@ -26,8 +26,15 @@ using Pustok.ViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\Views\_ViewImports.cshtml"
+using Pustok;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fd08ea1d0836cff98c160996ec98b49e7c842c41", @"/Views/Shared/_BookModalPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"15d25880d92cc8dab6387e9ad92b7c7920fb8729", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ca9c74307dc5e8572d053d43645c6fc3201057e8", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__BookModalPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Book>
     #nullable disable
@@ -64,7 +71,7 @@ using Pustok.ViewModels;
     <div class=""row"">
         <div class=""col-lg-5"">
             ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fd08ea1d0836cff98c160996ec98b49e7c842c413825", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fd08ea1d0836cff98c160996ec98b49e7c842c413999", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
