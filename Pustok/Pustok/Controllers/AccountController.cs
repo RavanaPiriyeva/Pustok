@@ -49,7 +49,14 @@ namespace Pustok.Controllers
                 }
                 return View("index");
             }
+            string token = await _userManager.GenerateEmailConfirmationTokenAsync(appUser);
+
+            var url = Url.Action("ConfirmEmail", "Account", new { email = appUser.Email, token = token }, Request.Scheme);
+
             await _userManager.AddToRoleAsync(appUser, "Member");
+
+            return Ok(new { URL = url });
+
             return RedirectToAction("index");
 
         }
@@ -79,9 +86,88 @@ namespace Pustok.Controllers
         }
 
         public async Task<IActionResult> Logout()
+
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("index", "home");
+        }
+        public IActionResult Forgot()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult > Forgot (MemberForgetPassworViewModel foretVM)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            AppUser appUser = await _userManager.FindByEmailAsync(foretVM.Email);
+            if(appUser == null)
+            {
+                ModelState.AddModelError("Email", "Email movcud deyil!!!");
+                return View();
+            }
+
+            string token =await _userManager.GeneratePasswordResetTokenAsync(appUser);
+            var url = Url.Action("ResetPassword", "Account", new { email = appUser.Email, token = token }, Request.Scheme);
+
+            return Ok(new { URL = url });
+        }
+        public async Task<IActionResult> ConfirmEmail(string email ,string token)
+        {
+            AppUser appUser = await _userManager.FindByEmailAsync(email);
+            if(appUser == null)
+            {
+                return RedirectToAction("error", "dashboard");
+            }
+            var result = await _userManager.ConfirmEmailAsync(appUser, token);
+            if (!result.Succeeded)
+            {
+                return RedirectToAction("error", "dashboard");
+            }
+            return RedirectToAction("index");
+        }
+
+        public async Task<IActionResult> ResetPassword(string email, string token)
+        {
+            AppUser member = await _userManager.Users.FirstOrDefaultAsync(x => !x.IsAdmin && x.NormalizedEmail == email.ToUpper());
+            if (member == null)
+                return RedirectToAction("error", "dashboard");
+
+            if (!await _userManager.VerifyUserTokenAsync(member, _userManager.Options.Tokens.PasswordResetTokenProvider, "ResetPassword", token))
+                return RedirectToAction("error", "dashboard");
+
+
+            MemberResetPasswodViewModel vm = new MemberResetPasswodViewModel
+            {
+                Email = email,
+                Token = token
+            };
+            return View(vm);
+        }
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword (MemberResetPasswodViewModel resetVM)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            AppUser appUser = await _userManager.Users.FirstOrDefaultAsync(x => !x.IsAdmin && x.NormalizedEmail == resetVM.Email.ToUpper());
+            if (appUser == null)
+            {
+                return RedirectToAction("error", "dashboard");
+            }
+            var result = await _userManager.ResetPasswordAsync(appUser, resetVM.Token, resetVM.Password);
+            if (!result.Succeeded)
+            {
+                foreach(var item in result.Errors)
+                {
+                    ModelState.AddModelError("", item.Description);
+                }
+                return View();
+            }
+            return RedirectToAction("index");
         }
     }
 }

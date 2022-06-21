@@ -5,7 +5,9 @@
 @model List<Author>
 @{
     ViewData["Title"] = "Index";
-    int count = 0;
+  int page = ViewBag.Page;
+    int totalPages = ViewBag.TotalPages;
+    int count = (page-1)*2;
 }
 
 <div class="container">
@@ -44,6 +46,19 @@
 
                 </tbody>
             </table>
+             <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item @(page==1?"disabled":"")"><a class="page-link" asp-action="index" asp-route-page="1"><<</a></li>
+                    <li class="page-item @(page==1?"disabled":"")"><a class="page-link" asp-action="index" asp-route-page="@(page-1)"><</a></li>
+                    @for (int i = 1; i <= totalPages; i++)
+                    {
+                        <li class="page-item @(page==i?"active":"")"><a class="page-link" asp-action="index" asp-route-page="@i">@i</a></li>
+
+                    }
+                    <li class="page-item @(page==totalPages?"disabled":"")"><a class="page-link" asp-action="index" asp-route-page="@(page+1)">></a></li>
+                    <li class="page-item @(page==totalPages?"disabled":"")"><a class="page-link" asp-action="index" asp-route-page="@totalPages">>></a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </div>

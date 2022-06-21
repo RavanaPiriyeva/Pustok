@@ -663,3 +663,7 @@ C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Raz
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_MemberRegisterForm.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Admin\Index.cshtml.g.cs
 C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Areas\Manage\Views\Admin\Create.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Account\ResetPassword.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Account\Forgot.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Book\Detail.cshtml.g.cs
+C:\Users\SAMSUNG\Desktop\pustok\Pustok\Pustok\Pustok\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_BookCommentForm.cshtml.g.cs
